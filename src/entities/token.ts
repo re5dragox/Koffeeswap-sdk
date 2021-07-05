@@ -58,6 +58,5 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
 
 export const WETH = {
   
-  [ChainId.MUMBAI]: new Token(ChainId.MUMBAI, '0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889', 18, 'WMATIC', 'Wrapped Matic'),
-  [ChainId.MATIC]: new Token(ChainId.MATIC, '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270', 18, 'WMATIC', 'Wrapped Matic')
+  [ChainId.KUCOIN]: new Token(ChainId.KUCOIN, '0x4446fc4eb47f2f6586f9faab68b3498f86c07521', 18, 'WKCS', 'Wrapped Kucoin Community Shares')
 }
