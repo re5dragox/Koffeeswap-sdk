@@ -4,7 +4,7 @@ import JSBI from 'jsbi'
 export type BigintIsh = JSBI | bigint | string
 
 export enum ChainId {
-  KUCOIN = 137
+  KUCOIN = 321
 }
 
 export enum TradeType {
