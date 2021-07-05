@@ -4,9 +4,7 @@ import JSBI from 'jsbi'
 export type BigintIsh = JSBI | bigint | string
 
 export enum ChainId {
-  
-  MUMBAI = 80001,
-  MATIC = 137
+  KUCOIN = 137
 }
 
 export enum TradeType {
@@ -20,9 +18,9 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const FACTORY_ADDRESS = '0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32' //TODO Need to change this. This address should be same for both testnet and mainnet
+export const FACTORY_ADDRESS = '0xC0fFeE00000e1439651C6aD025ea2A71ED7F3Eab' //TODO Need to change this. This address should be same for both testnet and mainnet
 
-export const INIT_CODE_HASH = '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f'
+export const INIT_CODE_HASH = '62c604a2a99a1c155ab3a06b325602ce74fbd4ea12c4fb4c4c1cffdd110d3981'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
